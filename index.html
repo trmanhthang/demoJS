@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo JS</title>
+</head>
+<body>
+    <!-- Bài 1 -->
+    <button type="button" onclick="showMessage()">Click Me!</button>
+    <br>
+
+    <!-- Bài 2 -->
+    <div id="messageDiv"></div>
+    <button type="button" onclick="showText()">Click Me!</button>
+    <br>
+
+    <!-- Bài 3 -->
+    <button type="button" onclick="showReplace()">Click Me!</button>
+    <br>
+
+    <!-- Bài 4 -->
+    <button type="button" onclick="showConsole()">Click Me!</button>
+</body>
+
+<script>
+    // Bài 1
+    function showMessage() {
+        alert('Xin chào')
+    }
+
+    // Bài 2
+    function showText() {
+        document.getElementById('messageDiv').innerText = 'Xin Chào!'
+    }
+
+    // Bài 3
+    function showReplace() {
+        document.write('Xin Chào!')
+    }
+
+    // Bài 4
+    function showConsole() {
+        console.log('Xin Chào')
+    }
+</script>
+</html>
